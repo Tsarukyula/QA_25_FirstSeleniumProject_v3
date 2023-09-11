@@ -1,4 +1,4 @@
-package org.ait.qa25.org.ait.qa25.org_2;
+package org.ait.qa25;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

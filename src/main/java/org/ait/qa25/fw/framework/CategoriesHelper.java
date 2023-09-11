@@ -11,4 +11,8 @@ public class CategoriesHelper extends HelperBase {
     public boolean isCategoriesPresent() {
         return driver.findElements(By.xpath("//strong[text()='Categories']")).size()>0;
     }
+
+    public void clickOnCategoriesLink() {
+        click(By.xpath("//strong[text()='Categories']"));
+    }
 }

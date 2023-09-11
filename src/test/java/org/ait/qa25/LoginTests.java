@@ -1,11 +1,11 @@
-package org.ait.qa25.org.ait.qa25.org_2;
+package org.ait.qa25;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTests extends  TestBase {
+public class LoginTests extends TestBase {
 
     @BeforeMethod
     public void ensurePrecondition() {

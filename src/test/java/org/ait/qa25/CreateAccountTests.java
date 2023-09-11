@@ -1,4 +1,4 @@
-package org.ait.qa25.org.ait.qa25.org_2;
+package org.ait.qa25;
 
 import org.ait.qa25.fw.models.User;
 import org.openqa.selenium.By;

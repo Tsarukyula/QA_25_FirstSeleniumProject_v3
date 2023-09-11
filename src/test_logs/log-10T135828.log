@@ -1,0 +1,5 @@
+1443 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+5601 [main] INFO  org.ait.qa25.TestBase -- Start test
+17589 [main] INFO  org.ait.qa25.TestBase -- Stop test

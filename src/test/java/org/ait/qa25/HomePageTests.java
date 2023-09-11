@@ -1,10 +1,18 @@
-package org.ait.qa25.org.ait.qa25.org_2;
+package org.ait.qa25;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HomePageTests extends TestBase {
+
+    @BeforeMethod
+    public void ensurePrecondition() {
+        if (!app.getCategories().isCategoriesPresent()) {
+            app.getCategories().clickOnCategoriesLink();
+        }
+    }
 
     @Test
     public void isCategoriesPresentTest() {
